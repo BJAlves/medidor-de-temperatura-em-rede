@@ -9,39 +9,13 @@ servidor para o cliente, este poderá fazer uma requisição, momentos antes
 de chegar em casa, para que o ar condicionado seja ligado na temperatura
 desejada.
 
-Para ilustrar a temperatura do ar condicionado, utilizamos 3 LEDS, sendo
-que cada um deles corresponde a uma faixa de valores de temperatura em o
-C.
+Assim, tanto no momento em que o cliente consulta a temperatura em que o ambiente está quanto no momento em que ele estipula a temperatura desejada
+para o ar condicionado antes de chegar em casa, um dos três LEDS irá acender, de acordo com as faixas de temperatura, estabelecidas na tabela I.
 
-Assim, tanto no momento em que o cliente consulta a temperatura que o ambiente está quanto no momento em que ele estipula a temperatura desejada
-para o ar condicionado antes de chegar em casa, um dos três leds ira acender, de acordo com as faixas de temperatura, estabelecidas na tabela I
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-</head>
-<body>
 <table>
   <tr>
     <th>LED</th>
-    <th>Faixa de temperatura (t)</th>
+    <th>Faixa de temperatura (t), em °C</th>
   </tr>
   
   <tr>
@@ -59,10 +33,7 @@ tr:nth-child(even) {
     <td>(t> 27) && (t<=40)</td>
   </tr> 
 </table>
-
-</body>
-</html>
-Tabela I: LEDs e faixas de temperaturas correspondentes.
+Tabela I: LEDS e faixas de temperaturas correspondentes.
 
 
 
