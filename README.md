@@ -35,5 +35,10 @@ para o ar condicionado antes de chegar em casa, um dos três LEDS irá acender, 
 </table>
 Tabela I: LEDS e faixas de temperaturas correspondentes.
 
+Escolhemos o protocolo TCP (DHCP) por oferecer garantia de entrega de
+mensagens, sendo mais seguro do que o protocolo UDP.
 
+Na Figura 1 é representada e visão física do sistema proposto.
 
+<img src="visao_fisica_sistema.png">
+Figura 1: Visão física do sistema.
