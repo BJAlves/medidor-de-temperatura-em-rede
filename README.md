@@ -25,15 +25,16 @@ para o ar condicionado antes de chegar em casa, um dos três LEDS irá acender, 
   
   <tr>
     <td>LED 2</td>
-    <td>(t> 25) && (t<=27)</td>
+    <td>(t > 25) && (t <= 27)</td>
   </tr>
   
   <tr>
     <td>LED 3</td>
-    <td>(t> 27) && (t<=40)</td>
+    <td>(t > 27) && (t <= 40)</td>
   </tr> 
 </table>
 Tabela I: LEDS e faixas de temperaturas correspondentes.
+
 
 Escolhemos o protocolo TCP (DHCP) por oferecer garantia de entrega de
 mensagens, sendo mais seguro do que o protocolo UDP.
